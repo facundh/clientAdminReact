@@ -34,7 +34,7 @@ const Layout = () => {
         </nav>
       </div>
 
-      <div className="md:w-3/4 md:h-screen overflow-scroll">
+      <div className="md:w-3/4 md:h-screen overflow-scroll p-3">
         <Outlet />
       </div>
     </div>

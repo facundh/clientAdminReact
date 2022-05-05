@@ -21,11 +21,11 @@ const Inicio = () => {
     }
 
     obtenerClientesAPI();
-  },[clientes])
+  },[])
   return (
     <>
        <h1 className='uppercase  text-sky-600 font-bold text-center mt-4 text-3xl'>Lista de clientes</h1>
-    <div className='w-full'>
+   
         <table className='w-full  mt-5 table-auto shadow bg-white'>
             <thead className='text-sky-500'>
               <tr>
@@ -46,7 +46,7 @@ const Inicio = () => {
                 }
             </tbody>
       </table>
-    </div>
+   
     
     </>
   )
