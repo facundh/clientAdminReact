@@ -1,5 +1,36 @@
 {
-    "clientes": [
-       
-    ]
+  "clientes": [
+    {
+      "nombre": "Facundo ",
+      "empresa": "Getir",
+      "email": "test4@test.com",
+      "telefono": "4324234",
+      "notas": "Cliente recomendado por athila herrera mordelon",
+      "id": 1
+    },
+    {
+      "nombre": "Facundo ",
+      "empresa": "Getir",
+      "email": "test4@test.com",
+      "telefono": "4324234",
+      "notas": "wqewqeqwewqewqe",
+      "id": 2
+    },
+    {
+      "nombre": "Ligia",
+      "empresa": "Ligia diseño",
+      "email": "teste@gmail.com",
+      "telefono": "123456",
+      "notas": "Moda y diseño canino",
+      "id": 3
+    },
+    {
+      "nombre": "Athila",
+      "empresa": "Perruna",
+      "email": "test2@gmail.com",
+      "telefono": "987654",
+      "notas": "Athila perro mordelon a domicilio",
+      "id": 4
+    }
+  ]
 }

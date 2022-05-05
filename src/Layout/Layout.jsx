@@ -5,7 +5,7 @@ const Layout = () => {
   const location = useLocation();
   const urlActual = location.pathname;
   return (
-    <div className="md:flex md:min-h-screen ">
+    <div className="md:flex md:min-h-screen w-full">
       <div className="md:w-1/4 bg-stone-600 px-1 py-10">
         <h2 className="text-center text-2xl font-black text-sky-600 text-decoration-line: underline">
           Administrador
