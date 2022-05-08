@@ -7,7 +7,7 @@ const Cliente = ({cliente}) => {
 
     const navigate = useNavigate();
   return (
-    <tr className='border-b hover:bg-slate-400 cursor-pointer'>
+    <tr className='border-b hover:bg-slate-400 cursor-pointer text-center'>
         <td className='p-3'>{nombre}</td>
         <td className='p-3'>
             <p><span className='uppercase text-gray-700 font-bold'>Email: </span>{email}</p>
