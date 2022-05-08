@@ -6,15 +6,23 @@
       "email": "test4@test.com",
       "telefono": "4324234",
       "notas": "Prueba de json server",
-      "id": 1
+      "id": 4
     },
     {
-      "nombre": "Athila",
-      "empresa": "Perruna",
-      "email": "test@gmail.com",
-      "telefono": "123456",
-      "notas": "Perro con dientes afilados",
-      "id": 2
+      "nombre": "Facundo ",
+      "empresa": "Intercargo",
+      "email": "test4@test.com",
+      "telefono": "4324234",
+      "notas": "Prueba de json server probando\n",
+      "id": 5
+    },
+    {
+      "nombre": "Facundo Actualizado",
+      "empresa": "A pleno",
+      "email": "teste@gmail.com",
+      "telefono": "21312321312",
+      "notas": "Probando el nuevo post",
+      "id": 6
     }
   ]
 }

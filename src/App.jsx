@@ -14,7 +14,6 @@ function App() {
       <Routes>
         <Route path="/clientes" element={<Layout />}>
           <Route index element={<Inicio />} />
-          <Route path="/" element={<Inicio />}/>
           <Route path="nuevo" element={<NuevoCliente />} />
           <Route path="editar/:id" element={<EditarCliente />} />
           <Route path=":id" element={<VerCliente />} />

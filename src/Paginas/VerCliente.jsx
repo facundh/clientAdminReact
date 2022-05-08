@@ -1,13 +1,14 @@
 import { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
 import Alerta from "../components/Alerta";
+import AlertaUser from "../components/Alertauser";
 import Spinner from "../components/Spinner";
 
 const VerCliente = () => {
   const { id } = useParams();
 
   const [cliente, setCliente] = useState({});
-  const [cargando, setCargando] = useState(false);
+  const [cargando, setCargando] = useState(true);
 
   useEffect(() => {
     setCargando(!cargando);
@@ -28,9 +29,9 @@ const VerCliente = () => {
   }, []);
 
   return (
-    cargando ? <Spinner /> :
+    !cargando ? <Spinner /> :
       Object.keys(cliente).length === 0 ? 
-        <Alerta>No Hay Resultados</Alerta>
+      <p>Usuario no encontrado</p>
    : (
     <div className="d-flex justify-center align-middle border-solid border-2 border-sky-500 w-auto p-5 rounded-md">
       

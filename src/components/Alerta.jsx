@@ -1,11 +1,15 @@
-import React from 'react'
+import React from "react";
 
-const Alerta = ({children}) => {
+
+const Alerta = ({ children }) => {
   return (
-    <div className=' bg-slate-600 uppercase text-red-700 text-center rounded-md p-3 my-4 font-bold'>
+    <>
+      <div className=" bg-slate-600 uppercase text-red-700 text-center rounded-md p-3 my-4 font-bold">
         {children}
-    </div>
-  )
-}
+      </div>
+      
+    </>
+  );
+};
 
-export default Alerta
+export default Alerta;
