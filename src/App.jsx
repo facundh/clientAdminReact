@@ -9,6 +9,7 @@ import NuevoCliente from "./Paginas/NuevoCliente";
 import VerCliente from "./Paginas/VerCliente";
 
 function App() {
+  
   return (
     <BrowserRouter>
       <Routes>
